@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+    .container {
+  		display: flex;
+  		justify-content: center; /* Center horizontally */
+  		align-items: center; /* Center vertically */
+  		height: 100vh; /* Full screen height */
+	}
+
+	.box {
+ 		 width: 100px;
+  		height: 100px;
+  		background: blue;
+	}	
+    </style>
+    
+
 </head>
     <header>
         <nav>
@@ -15,6 +31,11 @@
         </nav>
     </header>
 <body>
-    <p>this is the body</p>
+    <p><a href="#">this is the body</a></p>
+    <div class="container">
+    	<div class="box"> Box 1</div>
+    	<div class="box"> Box 2</div>
+    	<div class="box"> Box 3</div>
+    </div>	
 </body>
 </html>
