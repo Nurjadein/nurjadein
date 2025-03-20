@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    justify-content: space-between; /* Center horizontally */
+    justify-content: space-around; /* Center horizontally */
     align-items: center; /* Center vertically */
-	/* height: 100vh;  Full screen height */
+    height: 100vh; /* Full screen height */
 }
 
 .box {
