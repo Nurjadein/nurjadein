@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: space-around; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    align-items: flex-end; /* Center vertically */
     height: 100vh; /* Full screen height */
 }
 
