@@ -1,13 +1,20 @@
+/* Container using CSS Grid */
 .container {
-    display: flex;
-    justify-content: space-around; /* Center horizontally */
-    align-items: flex-end; /* Center vertically */
-    height: 100vh; /* Full screen height */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+    gap: 10px; /* Space between grid items */
+    max-width: 400px; /* Adjust width of the grid */
+    margin: auto; /* Center the grid */
+    padding: 20px;
+    background: lightgray;
 }
 
+/* Styling for the boxes */
 .box {
-    width: 100px;
-    height: 100px;
     background: blue;
-    border: 1px solid red;
-}	
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
